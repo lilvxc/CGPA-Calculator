@@ -1,0 +1,120 @@
+body{
+
+    height: 100vh;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    background-color: rgb(37, 206, 218);
+    
+    }
+    
+    .cgpa_container{
+    
+    width: 500px;
+    
+    height: auto;
+    
+    }
+    
+    .cgpa_container > .cgpa_title{
+    
+    width: 100%;
+    
+    height: 50px;
+    
+    background-color: rgb(218, 37, 188);
+    
+    text-align: center;
+    
+    line-height: 50px;
+    
+    font-family: Arial black;
+    
+    font-size: 24px;
+    
+    color: rgb(236, 236, 226);
+    
+    }
+    
+    .cgpa_container > input{
+    
+    border: none;
+    
+    background-color: white;
+    
+    width: 220px;
+    
+    height: 40px;
+    
+    border-radius: 10px;
+    
+    text-align: center;
+    
+    font-family: arial;
+    
+    font-weight: bold;
+    
+    color: black;
+    
+    margin: 10px;
+    
+    }
+    
+    ::placeholder{
+    
+    color: black;
+    
+    font-size: 18px;
+    
+    }
+    
+    
+    .cgpa_container .cgpa_output{
+    
+    width: 100%;
+    
+    margin-left: 19px;
+    
+    }
+    
+    .cgpa_container .cgpa_output h1{
+    
+    font-family: arial;
+    
+    font-size: 25px;
+    
+    margin-top: 25px;
+    
+    color: rgb(100, 100, 156);
+    
+    }
+    
+    .cgpa_container .cgpa_output #btn_re,
+    
+    .cgpa_container .cgpa_output #btn_sub{
+    
+    background-color: blue;
+    
+    font-size: 20px;
+    
+    font-family: arial;
+    
+    cursor: pointer;
+    
+    border-radius: 12px;
+    
+    color: yellow;
+    
+    }
+    
+    .cgpa_container .cgpa_output #btn_re{
+    
+    margin: 15px;
+    
+    }
+    
+    
